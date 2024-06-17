@@ -16,7 +16,7 @@ export default function NewsletterSignUp() {
           Do you want to earn money with code?
         </h1>
         <p className="text-start text-white-100 mt-3 font-semibold">
-          Sign up to my Solopreneur's playbook Newsletter, in which I share a knowledge and experience from becoming
+          Sign up to my Solopreneur&apos;s playbook Newsletter, in which I share a knowledge and experience from becoming
           independent coder.
         </p>
         <input
