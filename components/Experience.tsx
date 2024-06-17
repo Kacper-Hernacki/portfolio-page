@@ -2,6 +2,7 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import Image from "next/image";
 
 const Experience = () => {
   return (
@@ -9,8 +10,9 @@ const Experience = () => {
       <h1 className="mb-12 heading">
         My <span className="text-purple">work experience</span>
       </h1>
+      <div className="w-full h-full grid items-center">
         {workExperience.map((card) => (
-          <div key={card.id}>
+          <div className="mx-auto max-w-[42rem]" key={card.id}>
             <div className="ps-2 my-2 mt-4">
               <h3 className="text-lg font-medium uppercase text-gray-500 dark:text-neutral-400">
                 {card?.date}
@@ -33,6 +35,9 @@ const Experience = () => {
                 }}
                 className="flex-1 max-w-[42rem] text-black dark:text-white border-neutral-200 dark:border-slate-800"
               >
+                <div>
+                  <Image className="ml-8" width={250} height={250} src={card.thumbnail} alt="experience thumbnail"/>
+                </div>
                 <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
                   <div className="lg:ms-5">
                     <h1 className="text-start text-xl md:text-2xl font-bold">
@@ -47,6 +52,8 @@ const Experience = () => {
             </div>
           </div>
         ))}
+      </div>
+
     </div>
   );
 };

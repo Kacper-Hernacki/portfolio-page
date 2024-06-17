@@ -11,7 +11,6 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    tag: "Soon - preview available",
     title: "I prioritize client collaboration and open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
@@ -173,83 +172,47 @@ export const testimonials = [
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
 export const workExperience = [
   {
     id: 1,
-    date:"Sep 2019",
+    date:"Sep 2019 - Jun 2024",
     title: "Radar Engineer in Polish Army",
     desc: "Maintained and integrated radar system according to the specified requirements necessary for operational use in Airspace. As a graduation work, created automotive radar.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/experience/exp1.svg",
+    thumbnail: "/experience/e5.png",
   },
   {
     id: 2,
-    date:"Aug 2019",
-
+    date:"Aug 2019 - Aug 2021",
     title: "Frontend Freelancer",
     desc: "Developed simple landing pages, e-commerces and blogs suited for clients needs. Got familiar with the professional approach to the client.",
     className: "md:col-span-2",
-    thumbnail: "/experience/exp2.svg",
+    thumbnail: "/experience/e4.png",
   },
   {
     id: 6,
-    date:"Jan 2021",
+    date:"Jan 2021 - today",
     title: "Programming Master",
     desc: "Built nearly 20k audience in different social medias posting coding tips & tricks (youtube videos, medium articles, github free repos, instagram & linkedIn infographics and twitter threads)",
     className: "md:col-span-2",
-    thumbnail: "/experience/exp6.svg",
+    thumbnail: "/experience/e2.png",
   },
   {
     id: 3,
-    date:"Sep 2021",
-    title: "Full Stack Developer",
+    date:"Sep 2021 - Nov 2023",
+    title: "Full Stack Developer in LicenseRocks GmBH",
     desc: "Managed and added different features in the backend and frontend of a product, including databases, auth, AI services and more).\n" +
-      "Moreover, developed and maintained UI of the startup products, including frontend libraries, storefronts and multiple instances of the software.\n" +
-      "              ",
+      "Moreover, developed and maintained UI of the startup products, including frontend libraries, storefronts and multiple instances of the software.\n",
     className: "md:col-span-2",
-    thumbnail: "/experience/exp3.svg",
+    thumbnail: "/experience/e1.png",
   },
-
   {
     id: 5,
-    date:"Dec 2023",
+    date:"Dec 2023 - Today",
     title: "Solopreneur",
-    desc: "Constantly seeking solutions for complex problems to ship them as a product. Extending skills to achieve perfect SaaS, including programmatic SEO, performance optimization, AI features, clean code principles, and much more.",
+    desc: "Constantly seeking solutions for complex problems to ship them as a product. Extending skills to build successful SaaS, including programmatic SEO, performance optimization, AI features, clean code principles, and much more.",
     className: "md:col-span-2",
-    thumbnail: "/experience/exp5.svg",
+    thumbnail: "/experience/e3.png",
   },
 
 ];

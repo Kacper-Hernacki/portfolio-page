@@ -13,6 +13,7 @@ import RecentProjects from "@/components/RecentProjects";
 // import About from "@/components/About";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { TechParallax } from "@/components/techParallax";
+import Banner from "@/components/Banner";
 
 const Home = () => {
   return (
@@ -20,13 +21,14 @@ const Home = () => {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <Banner />
         <Grid />
         <RecentProjects />
         <Clients />
         {/*todo: edit about section*/}
         {/*<About/>*/}
         <Experience />
-        <TechParallax/>
+        <TechParallax />
         <Approach />
         {/*todo: add backend for beehiiv*/}
         {/*<NewsletterSignUp />*/}
