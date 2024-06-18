@@ -52,7 +52,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building Next.js 14 micro SaaS boilerplate which sells.",
+    title: "Currently building Next.js 15 course, developing micro SaaS",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -172,13 +172,58 @@ export const testimonials = [
   },
 ];
 
+export const education = [
+  {
+    id: 1,
+    date:"Aug 18",
+    title: "Bachelor of Engineering",
+    desc: "3.5 years of studying various of programming languages like C, C++, Java, LabView, Matlab and more. Moreover, developing solutions for complex electronics systems and maintaining radar systems. As a graduation work, I have built automotive radar. Work is in Polish.",
+    link:"https://onedrive.live.com/view.aspx?resid=70917679D4283ABD%21297&authkey=!AFqgz-6g07BZ0eQ"
+  },
+  {
+    id: 2,
+    date:"Jun 19",
+    title: "Master of Science",
+    desc: "1.5 years of advanced work with programming languages and radars. As a master thesis I worked on: Short-Time Fourier Transform for Non-Stationary Signal Analysis. Work linked in Polish.",
+    link:"https://1drv.ms/w/s!Ar06KNR5dpFwgiaY0N3SEU5RiCvq"
+  },
+  {
+    id: 3,
+    date:"Nov 23",
+    title: "AI Devs",
+    desc: "Developing AI solutions for software, creating automations and learning prompt engineering. Course based on Copitol, CHatGPT, GPT-4, OpenAI API, dedicated for programmers.",
+    link:"https://certs.aidevs.pl/cert/bb0d6973c96b574762c202a538f1144cbb2ec37e/en"
+  },
+  {
+    id: 4,
+    date:"Dec 23",
+    title: "Solidity Starter",
+    desc: "Web3 Smart COntract Developer course, which covers building secure apps on Ethereum network.",
+    link:"https://web3army.dev/"
+  },
+  {
+    id: 4,
+    date:"Feb 24",
+    title: "AI Devs 2",
+    desc: "Course dedicated for developers to implement AI in software and automations. Course covered: Generative AI, openAI Models, Programming with GPT-4, Automations with GPT-4",
+    link:"https://credsverse.com/credentials/e34b5af4-8a00-4c60-ae6e-f32658be0926"
+  },
+  {
+    id: 4,
+    date:"In progress",
+    title: "From Developer to Founder",
+    desc: "Course covers how to become a founder of own SaaS application. Content dedicated for developers who are able to build commercial software.",
+    link:"https://oddeveloperadofoundera.pl/"
+  },
+];
+
 export const workExperience = [
   {
     id: 1,
     date:"Sep 2019 - Jun 2024",
     title: "Radar Engineer in Polish Army",
-    desc: "Maintained and integrated radar system according to the specified requirements necessary for operational use in Airspace. As a graduation work, created automotive radar.",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "Maintained and integrated radar system according to the specified requirements necessary for operational use in Airspace.",
+    className: "md:col-span-2",
     thumbnail: "/experience/e5.png",
   },
   {
@@ -214,7 +259,6 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/experience/e3.png",
   },
-
 ];
 
 export const socialMedia = [

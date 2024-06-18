@@ -10,10 +10,10 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 // import NewsletterSignUp from "@/components/NewsletterSignUp";
-// import About from "@/components/About";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { TechParallax } from "@/components/techParallax";
 import Banner from "@/components/Banner";
+import Education from "@/components/Education";
 
 const Home = () => {
   return (
@@ -21,14 +21,13 @@ const Home = () => {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        <Banner />
         <Grid />
+        <Banner />
         <RecentProjects />
         <Clients />
-        {/*todo: edit about section*/}
-        {/*<About/>*/}
         <Experience />
         <TechParallax />
+        <Education/>
         <Approach />
         {/*todo: add backend for beehiiv*/}
         {/*<NewsletterSignUp />*/}
